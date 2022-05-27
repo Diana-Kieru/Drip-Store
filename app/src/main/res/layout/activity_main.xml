@@ -6,6 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+
+
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -19,14 +23,20 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="298dp"
-        android:layout_height="40dp"
+        android:id="@+id/textView4"
+        android:layout_width="246dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="88dp"
         android:fontFamily="sans-serif-black"
         android:text="Drip Store"
         android:textAlignment="center"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="57dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
